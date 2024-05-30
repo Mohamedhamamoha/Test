@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>روعة الويب</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1 class="logo">روعة الويب</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">الرئيسية</a></li>
+                    <li><a href="#services">الخدمات</a></li>
+                    <li><a href="#products">المنتجات</a></li>
+                    <li><a href="#contact">تواصل معنا</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section id="home" class="hero">
+        <div class="container">
+            <h2>مرحبا بك في روعة الويب</h2>
+            <p>أفضل مكان لعرض خدماتك ومنتجاتك</p>
+            <a href="#services" class="btn">اكتشف المزيد</a>
+        </div>
+    </section>
+    <section id="promo" class="promo" data-aos="fade-up">
+        <div class="container">
+            <h2>أحدث العروض</h2>
+            <p>احصل على أفضل العروض على منتجاتنا وخدماتنا الآن!</p>
+            <a href="#products" class="btn">تسوق الآن</a>
+        </div>
+    </section>
+    <section id="services" class="services" data-aos="fade-up">
+        <div class="container">
+            <h2>الخدمات</h2>
+            <div class="service-item" data-aos="fade-up" data-aos-delay="100">
+                <i class="fas fa-cog"></i>
+                <h3>الخدمة الأولى</h3>
+                <p>وصف قصير عن الخدمة الأولى.</p>
+            </div>
+            <div class="service-item" data-aos="fade-up" data-aos-delay="200">
+                <i class="fas fa-cloud"></i>
+                <h3>الخدمة الثانية</h3>
+                <p>وصف قصير عن الخدمة الثانية.</p>
+            </div>
+            <div class="service-item" data-aos="fade-up" data-aos-delay="300">
+                <i class="fas fa-mobile-alt"></i>
+                <h3>الخدمة الثالثة</h3>
+                <p>وصف قصير عن الخدمة الثالثة.</p>
+            </div>
+        </div>
+    </section>
+    <section id="products" class="products" data-aos="fade-up">
+        <div class="container">
+            <h2>المنتجات</h2>
+            <div class="product-carousel">
+                <div class="product-item" data-aos="fade-up" data-aos-delay="100">
+                    <img src="product1.jpg" alt="منتج 1">
+                    <h3>منتج 1</h3>
+                    <p>وصف قصير عن المنتج الأول.</p>
+                </div>
+                <div class="product-item" data-aos="fade-up" data-aos-delay="200">
+                    <img src="product2.jpg" alt="منتج 2">
+                    <h3>منتج 2</h3>
+                    <p>وصف قصير عن المنتج الثاني.</p>
+                </div>
+                <div class="product-item" data-aos="fade-up" data-aos-delay="300">
+                    <img src="product3.jpg" alt="منتج 3">
+                    <h3>منتج 3</h3>
+                    <p>وصف قصير عن المنتج الثالث.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contact" class="contact" data-aos="fade-up">
+        <div class="container">
+            <h2>تواصل معنا</h2>
+            <form>
+                <label for="name">الاسم:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">البريد الإلكتروني:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">الرسالة:</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit">إرسال</button>
+            </form>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <p>حقوق النشر &copy; 2024. جميع الحقوق محفوظة.</p>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    <script src="script.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+</html>
